@@ -1,14 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 in CodeSandboxyx!" />
+
+  <Eyes msg="" />
 </template>
 
 <script>
-import HelloWorldVue from "./components/HelloWorld.vue";
+
+import EyesVue from "./components/Eyes.vue";
 export default {
   name: "App",
   components: {
-    HelloWorld: HelloWorldVue,
+
+    Eyes: EyesVue,
   },
 };
 </script>
