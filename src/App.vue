@@ -9,7 +9,6 @@ import EyesVue from "./components/Eyes.vue";
 export default {
   name: "App",
   components: {
-
     Eyes: EyesVue,
   },
 };
